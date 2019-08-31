@@ -1,0 +1,38 @@
+
+
+import React, { Component } from 'react';
+import ProblemOne from './ProblemOne';
+
+
+
+class ChapterOne extends Component {
+
+  componentDidMount(){
+  }
+
+  render() {
+    let p1 = new ProblemOne("Abcde");
+    let p1_result = p1.isUniqueCharArray();
+    let p1_alternative_result = p1.isUniqueMap();
+  
+    return (
+      <section className="ChapterOne chapter">
+        <h2>Chapter I</h2>
+        <div className="Problem">
+          <b>1.1 Is Unique</b> 
+          
+          <p>
+            Implement an algorithm to determine if a string has all unique characters. What if you cannot use extra data structures?
+          </p>
+          
+          <p>
+                
+          </p>
+        </div>
+      </section>
+    );
+  }
+}
+
+export default ChapterOne;
+

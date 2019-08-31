@@ -1,0 +1,35 @@
+nav{
+}
+#basic-navbar-nav{
+    text-align: left;
+}
+
+.dropdown-menu{
+    box-sizing: border-box;
+    
+}
+.dropdown-menu .show{
+    width: 100% !important; 
+}
+
+.dropdown-menu span{
+
+    padding-left: 15px;
+}
+
+.dropdown-menu a{
+    width: 100%;
+}
+
+#Home{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 10px;
+
+
+}
+#About{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right:10px;
+}
