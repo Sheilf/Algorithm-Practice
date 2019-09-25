@@ -49,7 +49,44 @@ class App extends Component {
     return (
       <div className="App">
 
-        Hello world
+          JS Code Sessions
+
+          <div>
+            1. Pub Sub Implementation
+
+            This one is tough if you have not thought about observables in JS, but it goes into nice topics
+            that you'll discover through JS prototypes, design patterns, and the general paradigm.
+
+            In a nutshell, the observable pattern is delegates events and args with .call() &amp; .apply() to a subscription and publishing messaging model.<br/>
+          </div>
+          <div>
+            2. Hacker News API
+
+            work with webAPI to fetch a 
+            apiURL
+              each .idURL
+                .title === 'companyA'
+          </div>
+          <div>
+            3.  Reverse String
+
+            Multiple ways!
+          </div>
+
+          <div>
+            4. Synchronize an Async function 
+
+            async await it with a new Promise()
+          </div>
+
+          <div>
+            DFS Post Order
+
+            TreeNode Object
+
+            Left Right Visit
+            
+          </div>
 
 
       </div>
